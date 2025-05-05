@@ -1,0 +1,145 @@
+/* Global */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+h2 {
+  color: #a259ff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Navbar */
+.navbar {
+  background: #1a1a1a;
+  padding: 15px 0;
+  text-align: center;
+}
+.navbar ul {
+  list-style: none;
+}
+.navbar li {
+  display: inline-block;
+  margin: 0 15px;
+}
+.navbar a:hover {
+  color: #a259ff;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 10%;
+  flex-wrap: wrap;
+}
+.hero-text h1 {
+  font-size: 36px;
+}
+.highlight {
+  color: #a259ff;
+}
+.hero-buttons {
+  margin-top: 20px;
+}
+.btn, .btn-outline {
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+.btn {
+  background-color: #a259ff;
+  color: #fff;
+}
+.btn-outline {
+  border: 2px solid #a259ff;
+  color: #a259ff;
+}
+.hero-image img {
+  width: 250px;
+  border-radius: 15px;
+}
+
+/* Sections */
+section {
+  padding: 60px 10%;
+}
+.about p {
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.6;
+  color: #ccc;
+}
+.portfolio-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+.portfolio-gallery img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Skills */
+.skill {
+  margin-bottom: 20px;
+}
+.progress {
+  background: #333;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.progress div {
+  background: #a259ff;
+  padding: 5px;
+  text-align: right;
+}
+
+/* Services */
+.services ul {
+  list-style: none;
+  max-width: 600px;
+  margin: auto;
+  columns: 2;
+  color: #ccc;
+}
+.services li {
+  margin-bottom: 10px;
+}
+
+/* Contact */
+.contact form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.contact input, .contact textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: none;
+}
+.contact button {
+  background: #a259ff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background: #1a1a1a;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #999;
+}
